@@ -24,7 +24,7 @@ ul{
 }
 .hero{
     background-color: #1F2937;
-    height: 300px;
+    height: 400px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -35,7 +35,7 @@ ul{
 }
 .image{
     height: 300px;
-    background-color:#ccc ;
+    background-color:#6d747d;
 }
 .hero h1{
     font-size: 48px;
@@ -62,7 +62,7 @@ ul{
 .information{
     display: flex;
     justify-content: center;
-    height: 300px;
+    height: 400px;
     align-items: center;
     gap: 40px;
    
@@ -79,4 +79,29 @@ ul{
     width: 135px;
     text-align: center;
     font-size: 15px;
+}
+
+.quote{
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+    /* flex-direction: column; */
+
+}
+.quote p{
+    width: 830px;
+    font-size: 36px;
+    font-weight: 100;
+    color: #1F2937;
+}
+span{
+    display: block;
+    align-self: flex-end;
+}
+.quotecontent{
+    display: flex;
+    flex-direction: column;
 }

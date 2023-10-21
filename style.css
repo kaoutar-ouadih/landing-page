@@ -1,0 +1,50 @@
+nav{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.left-list, .right-list{
+    display: flex;
+}
+.right-list{
+    gap: 20px;
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+#logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.hero{
+    background-color: #1F2937;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 35px;
+}
+.card, image{
+   width: 400px; 
+}
+.hero h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+.hero p, .hero button, .hero .image{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.hero button{
+    background-color: #3882F6;
+    padding: 8px 22px;
+    border-radius: 10px;
+    border: none;
+}

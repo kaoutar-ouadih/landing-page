@@ -30,8 +30,12 @@ ul{
     align-items: center;
     padding: 35px;
 }
-.card, image{
+.card, .image{
    width: 400px; 
+}
+.image{
+    height: 300px;
+    background-color:#ccc ;
 }
 .hero h1{
     font-size: 48px;
@@ -47,4 +51,32 @@ ul{
     padding: 8px 22px;
     border-radius: 10px;
     border: none;
+}
+
+#infoh1{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+.information{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    align-items: center;
+    gap: 40px;
+   
+
+}
+.minicards img{
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+    width: 140px;
+    height: 140px;
+}
+.minicards{  
+    flex-wrap: wrap;
+    width: 135px;
+    text-align: center;
+    font-size: 15px;
 }

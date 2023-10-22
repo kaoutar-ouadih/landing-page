@@ -100,21 +100,19 @@ ul{
 .quote{
     height: 400px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     background-color: #E5E7EB; 
  }
-.quote p{
-    width: 830px;
+.quote .quote2 p{
+    max-width: 830px;
     font-size: 32px;
     font-weight: 100;
     color: #1F2937;
     flex-shrink: 1;
 }
-/* .quote2{
-    display: flex;
-    flex-wrap: wrap;
-} */
+
 
 .quotecontent{
     display: flex;

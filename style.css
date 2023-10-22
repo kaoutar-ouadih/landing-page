@@ -5,8 +5,10 @@ nav{
     background-color: #1F2937;
     height: 80px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding-left: 90px;
+    padding-right: 90px;
 }
 .left-list, .right-list{
     display: flex;
@@ -29,10 +31,12 @@ ul{
     background-color: #1F2937;
     height: 400px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 35px;
     gap: 120px;
+    padding-left: 90px;
+    padding-right: 90px;
 }
 .hero .card p{
     margin-top: -35px;
@@ -72,6 +76,7 @@ ul{
 }
 .information{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     height: 400px;
     align-items: center;
@@ -80,7 +85,7 @@ ul{
 
 }
 .minicards img{
-    border: 2px solid #3882F6;
+    border: 3px solid #3882F6;
     border-radius: 10px;
     width: 140px;
     height: 140px;
@@ -95,36 +100,38 @@ ul{
 .quote{
     height: 400px;
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     background-color: #E5E7EB; 
-    /* flex-direction: column; */
  }
 .quote p{
     width: 830px;
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 100;
     color: #1F2937;
+    flex-shrink: 1;
 }
-span{
-    display: block;
-    align-self: flex-end;
-}
+/* .quote2{
+    display: flex;
+    flex-wrap: wrap;
+} */
+
 .quotecontent{
     display: flex;
-    flex-direction: column;
+    flex-direction: row-reverse;
+    
 }
 
 .call{
     height: 400px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
 .callcard{
     background-color: #3882F6;
-    width: 1400px;
+    width: 1000px;
     border-radius: 8px;
     color: white;
     display: flex;
@@ -149,6 +156,6 @@ footer{
     align-items: center;
     background-color: #1F2937;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
 }  
